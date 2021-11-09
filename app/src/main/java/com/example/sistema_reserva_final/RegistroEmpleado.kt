@@ -8,4 +8,7 @@ class RegistroEmpleado : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro_empleado)
     }
+    fun sayHello(){
+       println("hola"); 
+    }
 }
