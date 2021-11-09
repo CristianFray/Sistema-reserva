@@ -200,6 +200,11 @@
         android:text="REGISTRASE"
         android:textColor="#FFFFFF" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/azul"/>
+
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
