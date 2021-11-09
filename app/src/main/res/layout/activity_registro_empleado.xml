@@ -169,8 +169,23 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Txtconfirmarpas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="Confirmar Contraseña"
+                    android:inputType="textPassword" />
+
+            </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
+
+
 
 
     </LinearLayout>
@@ -185,14 +200,6 @@
         android:text="REGISTRASE"
         android:textColor="#FFFFFF" />
 
-    <Buttons
-        android:id="@+id/Btnregistrars"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:layout_margin="20dp"
-        android:backgroundTint="@color/azul"
-        android:text="REGISTRASE"
-        android:textColor="#FFFFFF" />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
